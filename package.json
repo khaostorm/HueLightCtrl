@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "node-hue-api": "^2.4.4"
+  },
+  "scripts": {
+    "build": "yarn install && yarn build-simple",
+    "build-npm": "npm install && npm run build-simple",
+    "build-simple": "tsc --build tsconfig.json && cp -r node_modules ./build/"
+  },
+  "devDependencies": {
+    "@types/node": "^11.13.0",
+    "@types/node-hue-api": "^2.3.0"
+  }
+}
