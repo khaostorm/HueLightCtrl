@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "node-hue-api": "^2.4.4"
+    "node-hue-api": "^2.4.4",
+    "typescript": "^3.9.5"
   },
   "scripts": {
     "build": "yarn install && yarn build-simple",
